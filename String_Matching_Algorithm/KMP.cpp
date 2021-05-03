@@ -34,8 +34,3 @@ int KMP(){	// Check if String B found in String A
 	}
 	return 0;	// Not found!
 }
-int main(){
-	cin >> A+1 >> B+1;
-	cout << KMP();
-	return 0;
-}
