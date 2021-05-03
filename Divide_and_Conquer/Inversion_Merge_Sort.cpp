@@ -1,9 +1,9 @@
 /*
-	Task	: Inversion
+	Task	: Inversion_Merge_Sort
 	Author	: Phumipat C. [MAGCARI]
 	School	: RYW
 	Language: C++
-	Created	: 03 May 2021 [20:00]
+	Created	: 03 May 2021 [20:05]
 */
 #include<bits/stdc++.h>
 #define all(x) begin(x),end(x)
