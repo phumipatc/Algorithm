@@ -20,7 +20,8 @@ struct A{
 };
 int p[N];
 int fr(int u){
-	return (u == p[u]?u:p[u] = fr(p[u]));
+	if(p[u] == u)	return u;
+	else			return p[u] = fr(p[u]);
 }
 LL kruskal(vector<A > edges){
 	LL sum = 0;
