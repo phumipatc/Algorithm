@@ -1,9 +1,10 @@
 /*
-	Task	: Segment_Tree
-	Author	: Phumipat C. [MAGCARI]
-	School	: RYW
-	Language: C++
-	Created	: 03 May 2021 [12:06]
+	Task		: Segment_Tree
+	Author		: Phumipat C. [MAGCARI]
+	School		: RYW
+	Language	: C++
+	Explanation	: https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/
+	Created		: 03 May 2021 [12:06]
 */
 #include<bits/stdc++.h>
 #define all(x) begin(x),end(x)

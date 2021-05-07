@@ -1,9 +1,10 @@
 /*
-	Task	: Fenwick_Tree
-	Author	: Phumipat C. [MAGCARI]
-	School	: RYW
-	Language: C++
-	Created	: 03 May 2021 [12:04]
+	Task		: Fenwick_Tree
+	Author		: Phumipat C. [MAGCARI]
+	School		: RYW
+	Language	: C++
+	Explanation	: https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/
+	Created		: 03 May 2021 [12:04]
 */
 #include<bits/stdc++.h>
 #define all(x) begin(x),end(x)

@@ -1,9 +1,10 @@
 /*
-	Task	: _Closest_Pair
-	Author	: Phumipat C. [MAGCARI]
-	School	: RYW
-	Language: C++
-	Created	: 04 May 2021 [17:45]
+	Task		: _Closest_Pair
+	Author		: Phumipat C. [MAGCARI]
+	School		: RYW
+	Language	: C++
+	Explanation	: https://www.geeksforgeeks.org/closest-pair-of-points-using-divide-and-conquer-algorithm/
+	Created		: 04 May 2021 [17:45]
 */
 #include<bits/stdc++.h>
 #define all(x) begin(x),end(x)

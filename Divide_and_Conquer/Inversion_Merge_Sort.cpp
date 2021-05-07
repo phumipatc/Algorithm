@@ -1,9 +1,10 @@
 /*
-	Task	: Inversion_Merge_Sort
-	Author	: Phumipat C. [MAGCARI]
-	School	: RYW
-	Language: C++
-	Created	: 03 May 2021 [20:05]
+	Task		: Inversion_Merge_Sort
+	Author		: Phumipat C. [MAGCARI]
+	School		: RYW
+	Language	: C++
+	Explanation	: https://www.geeksforgeeks.org/counting-inversions/
+	Created		: 03 May 2021 [20:05]
 */
 #include<bits/stdc++.h>
 #define all(x) begin(x),end(x)

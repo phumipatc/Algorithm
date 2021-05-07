@@ -1,9 +1,10 @@
 /*
-	Task	: Merge_Sort
-	Author	: Phumipat C. [MAGCARI]
-	School	: RYW
-	Language: C++
-	Created	: 03 May 2021 [19:55]
+	Task		: Merge_Sort
+	Author		: Phumipat C. [MAGCARI]
+	School		: RYW
+	Language	: C++
+	Explanation	: https://www.geeksforgeeks.org/merge-sort/
+	Created		: 03 May 2021 [19:55]
 */
 #include<bits/stdc++.h>
 #define all(x) begin(x),end(x)
