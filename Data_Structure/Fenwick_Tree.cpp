@@ -4,6 +4,7 @@
 	School		: RYW
 	Language	: C++
 	Explanation	: https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/
+	Visualgo	: https://visualgo.net/en/fenwicktree
 	Created		: 03 May 2021 [12:04]
 */
 #include<bits/stdc++.h>

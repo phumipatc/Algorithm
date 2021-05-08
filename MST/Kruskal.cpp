@@ -3,6 +3,7 @@
 	Author	: Phumipat C. [MAGCARI]
 	School	: RYW
 	Language: C++
+	visualgo: https://visualgo.net/en/mst
 	Created	: 03 May 2021 [11:38]
 */
 #include<bits/stdc++.h>

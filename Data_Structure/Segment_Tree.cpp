@@ -4,6 +4,7 @@
 	School		: RYW
 	Language	: C++
 	Explanation	: https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/
+	visualgo	: https://visualgo.net/en/segmenttree
 	Created		: 03 May 2021 [12:06]
 */
 #include<bits/stdc++.h>
