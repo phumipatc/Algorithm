@@ -24,14 +24,14 @@ void upd_point(int l,int r,int now,int idx,int v){
 	}
 	int mid = (l+r)/2;
 	if(idx<=mid)	upd_point(l,mid,now*2,idx,v);
-	else			upd_point(mid+1,r,now*2+1,idx,v);
+	else		upd_point(mid+1,r,now*2+1,idx,v);
 	tree[now]+=tree[now*2] + tree[now*2+1];
 }
 LL read_point(int l,int r,int now,int idx){
 	if(l == r)	return tree[now];
 	int mid = (l+r)/2;
 	if(idx<=mid)	return read_point(l,mid,now*2,idx);
-	else			return read_point(mid+1,r,now*2+1,idx);
+	else		return read_point(mid+1,r,now*2+1,idx);
 }
 ```
 
