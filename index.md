@@ -2,6 +2,13 @@
 layout: default
 ---
 
+# Data Structure
+* [Fenwick Tree](https://github.com/phumipatc/Algorithm/blob/master/Data_Structure/Fenwick_Tree.cpp)
+* [Segment Tree](https://github.com/phumipatc/Algorithm/blob/master/Data_Structure/Segment_Tree.cpp)
+
+
+
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
@@ -30,12 +37,6 @@ var fun = function lang(l) {
 }
 ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
 
 #### Header 4
 
