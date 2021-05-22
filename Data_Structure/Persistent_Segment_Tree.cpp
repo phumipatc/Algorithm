@@ -46,7 +46,7 @@ A* upd(int l,int r,A* origin,int idx,int v){
 	return &tree[now];
 }
 int read(int l,int r,A* lo,A* ro,int ll,int rr){
-	if(ll>r || r<ll)	return 0;
+	if(ll>r || rr<l)	return 0;
 	if(ll<=l && r<=rr)	return ro->v - lo->v;
 	int mid = (l+r)/2;
 	return read(l,mid,lo->l,ro->l,ll,rr) + read(mid+1,r,lo->r,ro->r,ll,rr);
