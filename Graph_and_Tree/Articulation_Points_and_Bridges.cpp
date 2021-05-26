@@ -24,11 +24,14 @@ int idx[N],low[N];
 int id,root = 1;
 void dfs(int u,int p){
 	idx[u] = low[u] = ++id;
+	int cnt = 0;
 	for(auto x:g[u]){
 		if(x == p)	continue;
 		if(!idx[x])			dfs(x,u),low[u] = min(low[u],low[x]);
 		else				low[u] = min(low[u],idx[x]);
+		cnt++;
 		if(u != root && low[x]>=idx[u])	points.push_back(u);
 		if(low[x]>idx[u])				bridges.push_back({u,x});
 	}
+	if(u == root && cnt>1)	points.push_back(u);
 }
