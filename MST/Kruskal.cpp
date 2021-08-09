@@ -18,6 +18,10 @@ const int N = 100010;
 struct A{
 	int u,v;
 	LL w;
+	A(int u,int v,LL w):u(u),v(v),w(w){}
+	bool operator < (const A&o) const{
+		return w<o.w;
+	}
 };
 int p[N];
 int fr(int u){
