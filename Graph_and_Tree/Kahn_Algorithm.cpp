@@ -1,5 +1,5 @@
 /*
-	Task	: Topological Sort
+	Task	: Kahn's Algorithm
 	Author	: Borworntat D. [Hydrolyzed~]
 	School	: RYW
 	Language: C++
