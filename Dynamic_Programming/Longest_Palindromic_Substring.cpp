@@ -1,5 +1,5 @@
 /*
-    Task	: Longest_palindromedromic_Substring
+    Task	: Longest_palindromic_Substring
     Author	: Chayanin K. [~Aphrodicez]
     School	: RYW
     Lang	: C++    
@@ -16,7 +16,7 @@ bool palindrome[MaxN][MaxN];
 
 char Longest_Palindrome[MaxN];
 
-void LPS() {
+char* LPS() {
     int n = strlen(s + 1);
     int max_size = 1;
     int start = 1;
@@ -42,6 +42,7 @@ void LPS() {
     for(int i = 1, j = start; i <= max_size; i++, j++) {
         Longest_Palindrome[i] = s[j];
     }
+	return &Longest_Palindrome[1];
 }
 
 int main() {
@@ -49,13 +50,11 @@ int main() {
     cin.tie(0);
 
     cin >> (s + 1);
-    LPS();
-    printf("%s\n", Longest_Palindrome + 1);
+    cout << LPS();
     return 0;
 }
 
 /*
 banana
-
 abracadabra
 */
