@@ -1,2 +1,2 @@
 # Algorithm
-Gather all algorithm that I've done before
+Gathering all "Need to know" algorithm in POSN
