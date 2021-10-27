@@ -1,5 +1,5 @@
 # Algorithm
-## Gathering all "Need to know" algorithm in POSN (C++)
+## Gathering all "Need to know" algorithm in Competitive Programming (C++)
 
 Feel free to create new pull request
 ## Pull Request Rule
