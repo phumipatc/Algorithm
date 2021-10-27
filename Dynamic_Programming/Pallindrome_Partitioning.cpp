@@ -1,6 +1,6 @@
 /*
-	Task		: Pallindrome Partioting
-	Author		: Phumipat C. [MAGCARI]
+	Task		: Pallindrome Partitioning
+	Author		: Dharmik Govani [21Shadow10]
 	Language	: C++
 	Explanation	: 
 	Created		: 27 October 2021 [00:06]
