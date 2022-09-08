@@ -19,6 +19,17 @@ const int dir8[2][8] = {{-1,-1,-1,0,1,1,1,0},{-1,0,1,1,-1,0,1,-1}};
 
 const int N = 100000;
 LL tree[N*4];
+int value[N];
+void build(int l,int r,int now){
+	if(l == r){
+		tree[now] = value[l];
+		return ;
+	}
+	int mid = (l+r)/2;
+	build(l,mid,now*2);
+	build(mid+1,r,now*2+1);
+	tree[now] = tree[now*2] + tree[now*2+1];
+}
 void upd_point(int l,int r,int now,int idx,int v){
 	if(l == r){
 		tree[now]+=v;
