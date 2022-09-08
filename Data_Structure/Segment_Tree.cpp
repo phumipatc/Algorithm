@@ -53,6 +53,7 @@ LL read_range(int l,int r,int now,int ll,int rr){
 	return read_range(l,mid,now*2,ll,rr) + read_range(mid+1,r,now*2+1,ll,rr);
 }
 // Function Calling
+// build(1,N,1);
 // upd_point(1,N,1,idx,v);
 // read_point(1,N,1,idx);
 // read_range(1,N,1,ll,rr);
