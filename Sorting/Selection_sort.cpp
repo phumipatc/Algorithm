@@ -1,5 +1,5 @@
 /*
-	Task		: Insertion_sort
+	Task		: Selection_sort
 	Author		: Phumipat C. [MAGCARI]
 	Language	: C++
 	Explanation	: 
