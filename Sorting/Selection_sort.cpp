@@ -17,7 +17,7 @@ const int dir4[2][4] = {{1,-1,0,0},{0,0,1,-1}};
 const int dir8[2][8] = {{-1,-1,-1,0,1,1,1,0},{-1,0,1,1,-1,0,1,-1}};
 const int N = 10010;
 int a[N];
-void insertionSort(int n){
+void selectionSort(int n){
 	int idx = 1;
 	for(int i=1;i<=n;i++){
 		for(int j=1;j<=n;j++)
