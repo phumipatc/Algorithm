@@ -24,13 +24,13 @@ int find_pos(int begin, int end) {
     int pivot = a[end];
     int pos = begin - 1;
     for (int i = begin; i <= end; i++) {
-        if (a[i] <= pivot) {
+        if (a[i] < pivot) {
             pos++;
             swap(a[i], a[pos]);
         }
     }
     swap(a[pos + 1], a[end]);
-    return pos;
+    return pos + 1;
 }
 void quick_sort(int begin, int end) {
     if (begin < end) {
