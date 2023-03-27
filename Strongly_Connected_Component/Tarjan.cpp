@@ -26,7 +26,6 @@ void dfs(int u,int p){
 	onstack[u] = 1;
 	st.push(u);
 	for(auto x:g[u]){
-		if(x == p)	continue;
 		if(!idx[x])			dfs(x,u),low[u] = min(low[u],low[x]);
 		else if(onstack[x])	low[u] = min(low[u],idx[x]);
 	}
