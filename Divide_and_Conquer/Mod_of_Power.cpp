@@ -3,6 +3,7 @@
 	Author	: Phumipat C. [MAGCARI]
 	School	: RYW
 	Language: C++
+	Explanation Link : https://www.geeksforgeeks.org/modular-exponentiation-power-in-modular-arithmetic/
 	Created	: 03 May 2021 [15:15]
 */
 #include<bits/stdc++.h>
