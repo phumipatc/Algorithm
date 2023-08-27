@@ -18,8 +18,8 @@ const int dir8[2][8] = {{-1,-1,-1,0,1,1,1,0},{-1,0,1,1,-1,0,1,-1}};
 const int N = 10010;
 int a[N];
 void bubbleSort(int n){
-	bool swapped = false;
-	while(!swapped){
+	bool swapped = true;
+	while(swapped){
 		swapped = false;
 		for(int i=1;i<n;i++)
 			if(a[i] > a[i+1])
