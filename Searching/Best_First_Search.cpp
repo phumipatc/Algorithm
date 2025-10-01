@@ -91,7 +91,7 @@ void BestFirstSearch(Puzzle current, int depth = 0, int maxDepth = 500) {
 
     // Recurse
     for (Puzzle& next : nextStates) {
-        recursiveGBFS(next, depth + 1, maxDepth);
+        BestFirstSearch(next, depth + 1, maxDepth);
     }
 
     // Backtrack: remove from visited
