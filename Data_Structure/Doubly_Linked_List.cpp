@@ -11,7 +11,7 @@ struct Node{
 	int data;
 	Node *next;
 	Node *prev;
-	Node(int val){9
+	Node(int val){
 		data = val;
 		next = NULL;
 		prev = NULL;
