@@ -5,12 +5,13 @@
 	Explanation	: 
 */
 #include <iostream>
+using namespace std;
 
 struct Node{
 	int data;
 	Node *next;
 	Node *prev;
-	Node(int val){
+	Node(int val){9
 		data = val;
 		next = NULL;
 		prev = NULL;
